@@ -6,15 +6,15 @@
             "type": "extensionHost",
             "request": "launch",
             "args": ["--extensionDevelopmentPath=${workspaceFolder}"],
-            "outFiles": ["${workspaceFolder}/out/**/*.js"],
+            "outFiles": ["${workspaceFolder}/dist/**/*.js"],
             "preLaunchTask": "npm: watch"
         },
         {
             "name": "Attach to Extension Host",
             "type": "extensionHost",
             "request": "attach",
-            "port": 9229,
-            "outFiles": ["${workspaceFolder}/out/**/*.js"]
+            "port": 9230,
+            "outFiles": ["${workspaceFolder}/dist/**/*.js"]
         }
     ]
 }
